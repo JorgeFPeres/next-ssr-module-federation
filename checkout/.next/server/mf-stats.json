@@ -1,0 +1,599 @@
+{
+  "id": "checkout",
+  "name": "checkout",
+  "metaData": {
+    "name": "checkout",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "nextjs-ssr_checkout"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "checkout",
+    "pluginVersion": "0.7.3",
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./pages/checkout"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/head",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./pages/checkout"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/image",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/link",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/router",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "checkout:next/script",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "__federation_expose_title-f46f1f0d1a809f85.js",
+            "__federation_expose_checkout-bda0d0a7badb8561.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "__federation_expose_pages__index-da7fa219adbacff2.js",
+            "__federation_expose_pages__shop-b8d138235031f5bd.js",
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js",
+            "components_test_js-92574a28ce20e05c.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js",
+            "vendor-chunks/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4.js",
+            "vendor-chunks/@module-federation+runtime@0.7.3.js",
+            "vendor-chunks/@module-federation+sdk@0.7.3.js",
+            "vendor-chunks/@module-federation+node@2.6.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__react-_w4xmf7avjwoqx2vntsbjo4qlo4.js",
+            "pages/_app.js",
+            "vendor-chunks/tr46@0.0.3.js",
+            "vendor-chunks/iconv-lite@0.6.3.js",
+            "vendor-chunks/node-fetch@2.7.0_encoding@0.1.13.js",
+            "vendor-chunks/whatwg-url@5.0.0.js",
+            "vendor-chunks/webidl-conversions@3.0.1.js",
+            "vendor-chunks/encoding@0.1.13.js",
+            "vendor-chunks/safer-buffer@2.1.2.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/shop.js",
+            "pages/index.js",
+            "pages/checkout.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react/jsx-dev-runtime",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "checkout:react/jsx-dev-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./title",
+        "./pages/checkout"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "checkout:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.1",
+      "shareScope": "default",
+      "version": "5.1.1",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "checkout:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "shop",
+      "consumingFederationContainerName": "checkout",
+      "federationContainerName": "shop",
+      "moduleName": "shop",
+      "usedIn": [
+        "pages/shop.js"
+      ],
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "home",
+      "consumingFederationContainerName": "checkout",
+      "federationContainerName": "home",
+      "moduleName": "home",
+      "usedIn": [
+        "pages/index.js"
+      ],
+      "entry": "http://localhost:3001/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "shop",
+      "consumingFederationContainerName": "checkout",
+      "federationContainerName": "shop",
+      "moduleName": "pdp",
+      "usedIn": [
+        "pages/p/[...slug].js"
+      ],
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "home",
+      "consumingFederationContainerName": "checkout",
+      "federationContainerName": "home",
+      "moduleName": "nav",
+      "usedIn": [
+        "pages/_app.js"
+      ],
+      "entry": "http://localhost:3001/_next/static/ssr/remoteEntry.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./title",
+      "id": "checkout:title",
+      "name": "title",
+      "requires": [
+        "react/jsx-dev-runtime"
+      ],
+      "file": "components/exposedTitle.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_title-f46f1f0d1a809f85.js"
+          ],
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/checkout",
+      "id": "checkout:pages/checkout",
+      "name": "pages/checkout",
+      "requires": [
+        "react/jsx-dev-runtime",
+        "next/head",
+        "next/dynamic"
+      ],
+      "file": "pages/checkout.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_checkout-bda0d0a7badb8561.js"
+          ],
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "components_test_js-92574a28ce20e05c.js",
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0.js",
+            "vendor-chunks/@swc+helpers@0.5.2.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map",
+      "id": "checkout:pages-map",
+      "name": "pages-map",
+      "requires": [],
+      "file": "../node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js!/Users/jorgeperes/Desktop/teste/module-federation-poc/nextjs-ssr-poc/node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map-v2",
+      "id": "checkout:pages-map-v2",
+      "name": "pages-map-v2",
+      "requires": [],
+      "file": "../node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js?v2!/Users/jorgeperes/Desktop/teste/module-federation-poc/nextjs-ssr-poc/node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "path": "./pages/index",
+      "id": "checkout:pages/index",
+      "name": "pages/index",
+      "requires": [],
+      "file": "pages/index.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__index-da7fa219adbacff2.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/shop",
+      "id": "checkout:pages/shop",
+      "name": "pages/shop",
+      "requires": [],
+      "file": "pages/shop.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__shop-b8d138235031f5bd.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/p/[...slug]",
+      "id": "checkout:pages/p/[...slug]",
+      "name": "pages/p/[...slug]",
+      "requires": [],
+      "file": "pages/p/[...slug].js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

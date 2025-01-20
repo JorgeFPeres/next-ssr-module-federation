@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"_app.js -> home/nav\":{\"id\":\"_app.js -> home/nav\",\"files\":[]},\"checkout.js -> ../components/test\":{\"id\":\"checkout.js -> ../components/test\",\"files\":[\"static/chunks/components_test_js.js\"]}}"

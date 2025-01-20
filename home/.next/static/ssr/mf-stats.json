@@ -1,0 +1,433 @@
+{
+  "id": "home",
+  "name": "home",
+  "metaData": {
+    "name": "home",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "nextjs-ssr_home"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "home",
+    "pluginVersion": "0.7.3",
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/head",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./pages/index"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/image",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/link",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./nav"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/router",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "14.1.4",
+      "eager": false,
+      "id": "home:next/script",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react/jsx-dev-runtime",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "home:react/jsx-dev-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./nav",
+        "./pages/index"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "home:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.1",
+      "shareScope": "default",
+      "version": "5.1.1",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "home:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "checkout",
+      "consumingFederationContainerName": "home",
+      "federationContainerName": "checkout",
+      "moduleName": "checkout",
+      "usedIn": [
+        "pages/checkout.js"
+      ],
+      "entry": "http://localhost:3000/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "shop",
+      "consumingFederationContainerName": "home",
+      "federationContainerName": "shop",
+      "moduleName": "shop",
+      "usedIn": [
+        "pages/shop.js"
+      ],
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "shop",
+      "consumingFederationContainerName": "home",
+      "federationContainerName": "shop",
+      "moduleName": "pdp",
+      "usedIn": [
+        "pages/p/[...slug].js"
+      ],
+      "entry": "http://localhost:3002/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "alias": "checkout",
+      "consumingFederationContainerName": "home",
+      "federationContainerName": "checkout",
+      "moduleName": "title",
+      "usedIn": [
+        "pages/index.js"
+      ],
+      "entry": "http://localhost:3000/_next/static/ssr/remoteEntry.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./nav",
+      "id": "home:nav",
+      "name": "nav",
+      "requires": [
+        "react/jsx-dev-runtime",
+        "next/link"
+      ],
+      "file": "components/nav.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_nav-184cfe80f056d300.js"
+          ],
+          "async": [
+            "components_helloWorld_js-72764ee7111aa51d.js",
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js",
+            "vendor-chunks/@swc+helpers@0.5.2-1dd2cb6e81c0fe61.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/index",
+      "id": "home:pages/index",
+      "name": "pages/index",
+      "requires": [
+        "react/jsx-dev-runtime",
+        "next/head"
+      ],
+      "file": "pages/index.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_home-81811db653f57fff.js"
+          ],
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js",
+            "vendor-chunks/@swc+helpers@0.5.2-1dd2cb6e81c0fe61.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map",
+      "id": "home:pages-map",
+      "name": "pages-map",
+      "requires": [],
+      "file": "../node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js!/Users/jorgeperes/Desktop/teste/module-federation-poc/nextjs-ssr-poc/node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "path": "./pages-map-v2",
+      "id": "home:pages-map-v2",
+      "name": "pages-map-v2",
+      "requires": [],
+      "file": "../node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js?v2!/Users/jorgeperes/Desktop/teste/module-federation-poc/nextjs-ssr-poc/node_modules/.pnpm/@module-federation+nextjs-mf@8.7.8_next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0__r_pcycuvtzz5zlkowjzy2vwyrhb4/node_modules/@module-federation/nextjs-mf/dist/src/loaders/nextPageMapLoader.js",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "path": "./pages/checkout",
+      "id": "home:pages/checkout",
+      "name": "pages/checkout",
+      "requires": [],
+      "file": "pages/checkout.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__checkout-a81ebaaa8aea2402.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/shop",
+      "id": "home:pages/shop",
+      "name": "pages/shop",
+      "requires": [],
+      "file": "pages/shop.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__shop-0761509fb85ecc5d.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./pages/p/[...slug]",
+      "id": "home:pages/p/[...slug]",
+      "name": "pages/p/[...slug]",
+      "requires": [],
+      "file": "pages/p/[...slug].js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__p__[...slug]-9340131970b824bb.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

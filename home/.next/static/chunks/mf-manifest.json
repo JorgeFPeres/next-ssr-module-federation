@@ -1,0 +1,461 @@
+{
+  "id": "home",
+  "name": "home",
+  "metaData": {
+    "name": "home",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "nextjs-ssr_home"
+    },
+    "remoteEntry": {
+      "name": "static/chunks/remoteEntry.js",
+      "path": "",
+      "type": "window"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "home",
+    "pluginVersion": "0.7.3",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "home:next/dynamic",
+      "name": "next/dynamic",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_d-05c45e0.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_d-05c45e1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:next/head",
+      "name": "next/head",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_h-09e2600.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_h-09e2601.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_h-09e2602.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:next/image",
+      "name": "next/image",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js",
+            "static/chunks/node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js-_66af0.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_i-4c77990.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_i-4c77991.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:next/link",
+      "name": "next/link",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_l-41a2650.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_l-41a2651.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_l-41a2652.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:next/router",
+      "name": "next/router",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js",
+            "static/chunks/node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js-_66af0.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_r-3dd7000.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_r-3dd7001.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:next/script",
+      "name": "next/script",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js",
+            "static/chunks/node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js-_66af0.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_s-640db40.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_s-640db41.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:react-dom",
+      "name": "react-dom",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js-_66af0.js",
+            "static/chunks/node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js-_66af1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:react/jsx-dev-runtime",
+      "name": "react/jsx-dev-runtime",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-dev-runtime_js-_92800.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-dev-runtime_js-_92801.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b61.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:react",
+      "name": "react",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:styled-jsx/style",
+      "name": "styled-jsx/style",
+      "version": "5.1.1",
+      "singleton": true,
+      "requiredVersion": "^5.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_style_js-_84000.js",
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_style_js-_84001.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "home:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.1",
+      "singleton": true,
+      "requiredVersion": "^5.1.1",
+      "assets": {
+        "js": {
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js"
+          ],
+          "sync": [
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_index_js-_2c660.js",
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_index_js-_2c661.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "checkout",
+      "moduleName": "checkout",
+      "alias": "checkout",
+      "entry": "http://localhost:3000/_next/static/chunks/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "shop",
+      "moduleName": "shop",
+      "alias": "shop",
+      "entry": "http://localhost:3002/_next/static/chunks/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "shop",
+      "moduleName": "pdp",
+      "alias": "shop",
+      "entry": "http://localhost:3002/_next/static/chunks/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "checkout",
+      "moduleName": "title",
+      "alias": "checkout",
+      "entry": "http://localhost:3000/_next/static/chunks/remoteEntry.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "home:nav",
+      "name": "nav",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_nav.js"
+          ],
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js",
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_style_js-_84000.js",
+            "static/chunks/components_helloWorld_js.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-dev-runtime_js-_92800.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_l-41a2650.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./nav"
+    },
+    {
+      "id": "home:pages/index",
+      "name": "pages/index",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_home.js"
+          ],
+          "async": [
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js",
+            "static/chunks/node_modules_pnpm_styled-jsx_5_1_1_react_18_2_0_node_modules_styled-jsx_style_js-_84000.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-dev-runtime_js-_92800.js",
+            "static/chunks/node_modules_pnpm_next_14_1_4_react-dom_18_2_0_react_18_2_0__react_18_2_0_node_modules_next_h-09e2600.js",
+            "static/chunks/node_modules_pnpm_react_18_2_0_node_modules_react_jsx-runtime_js-_d7b60.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/index"
+    },
+    {
+      "id": "home:pages-map",
+      "name": "pages-map",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages_map.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages-map"
+    },
+    {
+      "id": "home:pages-map-v2",
+      "name": "pages-map-v2",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages_map_v2.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages-map-v2"
+    },
+    {
+      "id": "home:pages/checkout",
+      "name": "pages/checkout",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages__checkout.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/checkout"
+    },
+    {
+      "id": "home:pages/shop",
+      "name": "pages/shop",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages__shop.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/shop"
+    },
+    {
+      "id": "home:pages/p/[...slug]",
+      "name": "pages/p/[...slug]",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_pages__p__[...slug].js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/p/[...slug]"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "shop",
+  "name": "shop",
+  "metaData": {
+    "name": "shop",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "nextjs-ssr_shop"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "shop",
+    "pluginVersion": "0.7.3",
+    "publicPath": "/_next/",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "shop:next/dynamic",
+      "name": "next/dynamic",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:next/head",
+      "name": "next/head",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:next/image",
+      "name": "next/image",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:next/link",
+      "name": "next/link",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:next/router",
+      "name": "next/router",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:next/script",
+      "name": "next/script",
+      "version": "14.1.4",
+      "singleton": true,
+      "requiredVersion": "^14.1.4",
+      "assets": {
+        "js": {
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ],
+          "sync": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:react/jsx-dev-runtime",
+      "name": "react/jsx-dev-runtime",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "18.2.0",
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shop:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.1",
+      "singleton": true,
+      "requiredVersion": "^5.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendor-chunks/styled-jsx@5.1.1_react@18.2.0-e4c0c27b3d0b05bd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "checkout",
+      "moduleName": "checkout",
+      "alias": "checkout",
+      "entry": "http://localhost:3000/_next/static/ssr/remoteEntry.js"
+    },
+    {
+      "federationContainerName": "home",
+      "moduleName": "home",
+      "alias": "home",
+      "entry": "http://localhost:3001/_next/static/ssr/remoteEntry.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "shop:pages/shop",
+      "name": "pages/shop",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_shop-bb270661b4b7936d.js"
+          ],
+          "async": [
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js",
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js",
+            "vendor-chunks/@swc+helpers@0.5.2-1dd2cb6e81c0fe61.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/shop"
+    },
+    {
+      "id": "shop:pages/p/[...slug]",
+      "name": "pages/p/[...slug]",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pdp-12f5aeea4438c085.js"
+          ],
+          "async": [
+            "vendor-chunks/next@14.1.4_react-dom@18.2.0_react@18.2.0__react@18.2.0-e6628f4e2be79f09.js",
+            "vendor-chunks/@swc+helpers@0.5.2-1dd2cb6e81c0fe61.js",
+            "vendor-chunks/react@18.2.0-bd3a26f74ea8f855.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/p/[...slug]"
+    },
+    {
+      "id": "shop:pages-map",
+      "name": "pages-map",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./pages-map"
+    },
+    {
+      "id": "shop:pages-map-v2",
+      "name": "pages-map-v2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./pages-map-v2"
+    },
+    {
+      "id": "shop:pages/checkout",
+      "name": "pages/checkout",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__checkout-cfd596088d84e31f.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/checkout"
+    },
+    {
+      "id": "shop:pages/index",
+      "name": "pages/index",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__index-0245b82bb40037a1.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/index"
+    }
+  ]
+}
